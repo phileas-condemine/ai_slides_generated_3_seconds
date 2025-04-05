@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Présentation IA : RAG, LLM-as-a-Judge, Agentic AI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1: Titre -->
+            <section>
+                <h1>Méthodologies d'IA pour l'Assurance</h1>
+                <h3>RAG, LLM-as-a-Judge, Agentic AI</h3>
+                <p>Créer de la valeur métier avec l'IA</p>
+            </section>
+
+            <!-- Slide 2: Introduction -->
+            <section>
+                <h2>Introduction</h2>
+                <p>L'IA transforme l'assurance en optimisant les processus et en améliorant l'expérience client.</p>
+                <p>Focus sur 3 approches : RAG, LLM-as-a-Judge, Agentic AI.</p>
+            </section>
+
+            <!-- Slide 3: Qu'est-ce que RAG ? -->
+            <section>
+                <h2>Retrieval-Augmented Generation (RAG)</h2>
+                <p>Combine la récupération d'informations externes avec la génération de texte par un LLM.</p>
+                <p>Objectif : Réponses précises et contextuelles sans retraining coûteux.</p>
+            </section>
+
+            <!-- Slide 4: Mise en pratique de RAG -->
+            <section>
+                <h2>Mise en pratique de RAG</h2>
+                <ul>
+                    <li>Créer une base de connaissances vectorielle (ex. contrats, sinistres).</li>
+                    <li>Intégrer un LLM pour générer des réponses basées sur ces données.</li>
+                    <li>Exemple : Chatbot pour répondre aux questions des assurés.</li>
+                </ul>
+            </section>
+
+            <!-- Slide 5: Cas d'usage RAG - Assurance non-vie -->
+            <section>
+                <h2>RAG dans l'Assurance Non-Vie</h2>
+                <p><strong>Cas :</strong> Traitement des sinistres auto.</p>
+                <p>RAG extrait les clauses pertinentes des contrats pour accélérer les décisions.</p>
+                <p><strong>Gain :</strong> Réduction de 20-30% du temps de traitement.</p>
+            </section>
+
+            <!-- Slide 6: Cas d'usage RAG - Assurance santé -->
+            <section>
+                <h2>RAG dans l'Assurance Santé</h2>
+                <p><strong>Cas :</strong> Vérification des remboursements.</p>
+                <p>RAG analyse les dossiers médicaux et politiques pour valider les demandes.</p>
+                <p><strong>Gain :</strong> 15-25% d'amélioration en précision.</p>
+            </section>
+
+            <!-- Slide 7: Coûts et limites de RAG -->
+            <section>
+                <h2>Coûts et Limites de RAG</h2>
+                <p><strong>Coût :</strong> ~10-50k€ pour la mise en place (base vectorielle + intégration).</p>
+                <p><strong>Limites :</strong> Dépendance à la qualité des données, latence accrue vs solutions simples.</p>
+            </section>
+
+            <!-- Slide 8: Qu'est-ce que LLM-as-a-Judge ? -->
+            <section>
+                <h2>LLM-as-a-Judge</h2>
+                <p>Utilise un LLM comme évaluateur pour juger la qualité des réponses ou décisions.</p>
+                <p>Alternative à l'annotation humaine coûteuse.</p>
+            </section>
+
+            <!-- Slide 9: Mise en pratique de LLM-as-a-Judge -->
+            <section>
+                <h2>Mise en pratique de LLM-as-a-Judge</h2>
+                <ul>
+                    <li>Entraîner un LLM sur des critères spécifiques (précision, cohérence).</li>
+                    <li>Évaluer automatiquement les outputs d'autres modèles ou agents.</li>
+                    <li>Exemple : Vérification des rapports de sinistres.</li>
+                </ul>
+            </section>
+
+            <!-- Slide 10: Cas d'usage LLM-as-a-Judge - Assurance entreprises -->
+            <section>
+                <h2>LLM-as-a-Judge dans l'Assurance Entreprises</h2>
+                <p><strong>Cas :</strong> Évaluation des risques professionnels.</p>
+                <p>Juge la cohérence des analyses de risques générées par IA.</p>
+                <p><strong>Gain :</strong> Réduction de 30% des coûts d'évaluation manuelle.</p>
+            </section>
+
+            <!-- Slide 11: Cas d'usage LLM-as-a-Judge - Assurance vie -->
+            <section>
+                <h2>LLM-as-a-Judge dans l'Assurance Vie</h2>
+                <p><strong>Cas :</strong> Validation des souscriptions.</p>
+                <p>Évalue les propositions pour détecter les incohérences.</p>
+                <p><strong>Gain :</strong> 20% d'amélioration en détection d'erreurs.</p>
+            </section>
+
+            <!-- Slide 12: Coûts et limites de LLM-as-a-Judge -->
+            <section>
+                <h2>Coûts et Limites de LLM-as-a-Judge</h2>
+                <p><strong>Coût :</strong> ~20-100k€ (entraînement + infrastructure).</p>
+                <p><strong>Limites :</strong> Biais potentiels du LLM, besoin de validation humaine périodique.</p>
+            </section>
+
+            <!-- Slide 13: Qu'est-ce que Agentic AI ? -->
+            <section>
+                <h2>Agentic AI</h2>
+                <p>Agents autonomes basés sur LLM capables de planifier et exécuter des tâches complexes.</p>
+                <p>Objectif : Automatisation avancée et prise de décision proactive.</p>
+            </section>
+
+            <!-- Slide 14: Mise en pratique de Agentic AI -->
+            <section>
+                <h2>Mise en pratique de Agentic AI</h2>
+                <ul>
+                    <li>Déployer des agents avec accès à des outils (API, bases de données).</li>
+                    <li>Planification multi-étapes pour résoudre des problèmes complexes.</li>
+                    <li>Exemple : Gestion complète d'un sinistre.</li>
+                </ul>
+            </section>
+
+            <!-- Slide 15: Cas d'usage Agentic AI - Assurance non-vie -->
+            <section>
+                <h2>Agentic AI dans l'Assurance Non-Vie</h2>
+                <p><strong>Cas :</strong> Gestion des sinistres habitation.</p>
+                <p>Agent collecte données, évalue dégâts, propose indemnisations.</p>
+                <p><strong>Gain :</strong> 40% de réduction des coûts opérationnels.</p>
+            </section>
+
+            <!-- Slide 16: Cas d'usage Agentic AI - Assurance santé -->
+            <section>
+                <h2>Agentic AI dans l'Assurance Santé</h2>
+                <p><strong>Cas :</strong> Suivi des patients chroniques.</p>
+                <p>Agent monitore les données et ajuste les plans de soin.</p>
+                <p><strong>Gain :</strong> 25% d'amélioration en satisfaction client.</p>
+            </section>
+
+            <!-- Slide 17: Coûts et limites de Agentic AI -->
+            <section>
+                <h2>Coûts et Limites de Agentic AI</h2>
+                <p><strong>Coût :</strong> ~50-200k€ (développement + maintenance).</p>
+                <p><strong>Limites :</strong> Complexité accrue, risques d'erreurs autonomes.</p>
+            </section>
+
+            <!-- Slide 18: Comparaison avec solutions simples -->
+            <section>
+                <h2>Comparaison avec Solutions Simples</h2>
+                <p>Solutions simples (règles fixes) : Moins coûteuses (~5-20k€), mais limitées en flexibilité.</p>
+                <p>RAG, LLM-as-a-Judge, Agentic AI : Plus coûteuses, mais gains significatifs en précision et automatisation.</p>
+            </section>
+
+            <!-- Slide 19: Synthèse des gains -->
+            <section>
+                <h2>Synthèse des Gains</h2>
+                <ul>
+                    <li><strong>RAG :</strong> Rapidité et précision (15-30%).</li>
+                    <li><strong>LLM-as-a-Judge :</strong> Réduction des coûts d'évaluation (20-30%).</li>
+                    <li><strong>Agentic AI :</strong> Automatisation avancée (25-40%).</li>
+                </ul>
+            </section>
+
+            <!-- Slide 20: Conclusion -->
+            <section>
+                <h2>Conclusion</h2>
+                <p>Ces méthodologies offrent des solutions puissantes pour l'assurance.</p>
+                <p>Le choix dépend des besoins métiers, des budgets et des exigences réglementaires.</p>
+                <p>Prochaines étapes : Pilotes et évaluation ROI.</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide'
+        });
+    </script>
+</body>
+</html>
